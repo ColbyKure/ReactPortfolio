@@ -1,19 +1,17 @@
 import React from "react";
 import { motion } from "framer-motion";
 // Import the images at the top if they are inside the 'src/assets' folder
-import tftCalculatorImage from "../assets/tft-image.avif";
-import socialMediaImage from "../assets/social-media-dashboard.png"; // Replace with your actual image
 
 const projects = [
   {
     title: "Teamfight Tactics Calculator",
-    image: tftCalculatorImage,  // Use the imported image
+    image: "/images/tft-image.png",  // Use the imported image
     description: "A calculator to optimize team compositions and item builds in TFT.",
     link: "https://github.com/ColbyKure/TftLib",
   },
   {
     title: "Social Media Dashboard",
-    image: socialMediaImage,  // Use your actual image for this project
+    image: "/images/social-media-dashboard.png",  // Use your actual image for this project
     description: "A responsive dashboard for tracking social media analytics.",
     link: "#",  // Replace with the actual link if applicable
   },
