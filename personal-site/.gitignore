@@ -1,23 +1,42 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node Modules
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# testing
-/coverage
+# Build Output
+.next/
+out/
 
-# production
-/build
-
-# misc
+# Static Files
+*.log
 .DS_Store
+
+# Environment Variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Editor Config
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+Thumbs.db
+.DS_Store
+
+# TailwindCSS Cache (if using TailwindCSS)
+.tailwind/
+
+# Miscellaneous
+package-lock.json
+yarn.lock
