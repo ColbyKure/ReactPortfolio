@@ -6,8 +6,14 @@ const projects = [
   {
     title: "Teamfight Tactics Calculator",
     image: "/images/tft-image.png",  // Use the imported image
-    description: "A calculator to optimize team compositions and item builds in TFT.",
+    description: "A calculator to test different item combos and also roll odds with X gold",
     link: "https://github.com/ColbyKure/TftLib",
+  },  
+  {
+    title: "Custom Sales Dashboard and Reporting Tool",
+    image: "/images/salesdash.webp",  // Use your actual image for this project
+    description: "",
+    link: "/custom-sales-dash",  // Replace with the actual link if applicable
   },
   {
     title: "Social Media Dashboard",
@@ -15,13 +21,12 @@ const projects = [
     description: "A responsive dashboard for tracking social media analytics.",
     link: "#",  // Replace with the actual link if applicable
   },
-  // Add more projects as needed
 ];
 
 const ProjectGallery = () => {
   return (
     <div className="py-20 bg-white">
-      <h2 className="text-4xl font-bold text-center mb-10">Passion Projects</h2>
+      <h2 className="text-4xl font-bold text-center mb-10">Work Experience</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8">
         {projects.map((project, index) => (
           <motion.div
