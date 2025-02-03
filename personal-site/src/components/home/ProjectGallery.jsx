@@ -13,7 +13,7 @@ const experience = [
     title: "Automated Report Manager and API",
     image: "/images/automatedreport.webp",
     description: "A Reporting tool to consolodate sales data, send out weekly reports, and UI for other company functions",
-    link: "https://github.com/ColbyKure/TftLib",
+    link: "/automated-reporting",
   },
   {
     title: "Online Learning Platform",
