@@ -17,7 +17,7 @@ const experience = [
   },
   {
     title: "Online Learning Platform",
-    image: "/images/elearning.png", 
+    image: "/images/elearning.jpg", 
     description: "A React Django Application built for HR team to upload videos and employees to watch.",
     link: "/elearning",
   },
@@ -29,7 +29,7 @@ const experience = [
   },
   {
     title: "OVT Internship",
-    image: "/images/internship.png", 
+    image: "/images/internship.jpg", 
     description: "Interned at Omnivision and created functional and integration tests using Selenium",
     link: "/internship",
   },
@@ -44,9 +44,9 @@ const projects = [
   },
   {
     title: "Boba Bear",
-    image: "/images/tft-image.png",
+    image: "/images/bobabear.webp",
     description: "A generic Boba Shop website. Can upload menu, change prices, and order drinks.",
-    link: "https://github.com/ColbyKure/TftLib",
+    link: "https://github.com/ColbyKure/BobaShop",
   },
 ];
 
