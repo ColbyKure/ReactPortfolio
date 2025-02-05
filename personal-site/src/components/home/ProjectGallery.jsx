@@ -64,7 +64,7 @@ const ProjectGallery = () => {
             transition={{ duration: 0.8, delay: index * 0.3 }}
             viewport={{ once: true, amount: 0.5 }}
           >
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <a href={project.link} target="_self" rel="noopener noreferrer">
               <img
                 src={project.image}  // Image path from the projects array
                 alt={project.title}
@@ -87,7 +87,7 @@ const ProjectGallery = () => {
             transition={{ duration: 0.8, delay: index * 0.3 }}
             viewport={{ once: true, amount: 0.5 }}
           >
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <a href={project.link} target="_self" rel="noopener noreferrer">
               <img
                 src={project.image}  // Image path from the projects array
                 alt={project.title}
