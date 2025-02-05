@@ -43,7 +43,7 @@ const ElearningPlatform = () => {
           </li>
         </ul>
         <p className="mt-4 text-gray-700">
-          This platform revolutionized OmniVision's internal training process, improving employee engagement, ensuring compliance with yearly training requirements, and providing HR with the tools needed for efficient training management and reporting.
+          This platform revolutionized OmniVision&apos;s internal training process, improving employee engagement, ensuring compliance with yearly training requirements, and providing HR with the tools needed for efficient training management and reporting.
         </p>
       </div>
     </div>
