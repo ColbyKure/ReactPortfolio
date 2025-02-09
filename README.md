@@ -1,7 +1,8 @@
 # React Portfolio - Colby Kure
 
-![Portfolio Preview](https://www.colbykure.dev/)  
-*A sleek and professional portfolio website built with React and Tailwind CSS.*
+https://www.colbykure.dev/
+
+*A portfolio website built with React and Tailwind CSS.*
 
 ## Overview
 This is my personal portfolio website, showcasing my projects, achievements, and experiences as a software engineer. The website is designed with a clean and minimalist UI, similar to a professional website for a billion-dollar corporation.
@@ -17,9 +18,6 @@ This is my personal portfolio website, showcasing my projects, achievements, and
 - **Frontend:** React.js, Tailwind CSS
 - **State Management:** Context API (if applicable)
 - **Hosting:** Vercel / Netlify (if applicable)
-
-## Screenshots
-![Homepage Preview](https://www.colbykure.dev/)
 
 ## Project Structure
 ```
