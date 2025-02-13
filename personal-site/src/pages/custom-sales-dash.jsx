@@ -24,7 +24,7 @@ const CustomSalesDash = () => {
             Optimized database performance by implementing PostgreSQL indexing and caching strategies, reducing query execution time by 40 percent for large-scale data retrieval.
           </li>
           <li>
-            Built RESTful APIs with NestJS to securely fetch, update, and analyze sales data, ensuring scalability and performance across thousands of transactions.
+            Built RESTful APIs with Django to securely fetch, update, and analyze sales data, ensuring scalability and performance across thousands of transactions.
           </li>
           <li>
             Implemented authentication and security best practices, including JWT-based authentication, OAuth for third-party integrations, and audit logging for compliance tracking.
@@ -34,9 +34,6 @@ const CustomSalesDash = () => {
           </li>
           <li>
             Configured continuous integration workflows to run automated unit, integration, and end-to-end tests before deployment, ensuring high code quality and stability.
-          </li>
-          <li>
-            Developed infrastructure-as-code scripts to manage deployment configurations and automate environment provisioning, increasing scalability and consistency across development, staging, and production environments.
           </li>
           <li>
             Led collaboration between engineering, DevOps, and product teams, ensuring seamless alignment of business objectives with technical implementation.

@@ -61,7 +61,7 @@ const ProjectGallery = () => {
             className="bg-white shadow-md rounded-lg p-6"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: index * 0.3 }}
+            transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true, amount: 0.5 }}
           >
             <a href={project.link} target="_self" rel="noopener noreferrer">
