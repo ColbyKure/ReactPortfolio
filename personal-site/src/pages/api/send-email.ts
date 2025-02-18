@@ -7,6 +7,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   const { name, email, message } = req.body;
+  console.log('email is ', email)
 
   if (!name || !email || !message) {
     return res.status(400).json({ error: "All fields are required." });
@@ -24,7 +25,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     // Email message details
     const mailOptions = {
-      from: process.env.EMAIL_USER,
+      from: email,
       to: process.env.RECEIVE_EMAIL, // Your personal email
       subject: `New Contact Message from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,

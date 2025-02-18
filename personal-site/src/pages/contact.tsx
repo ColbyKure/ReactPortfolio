@@ -12,6 +12,7 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("Sending...");
+    console.log("Sending data:", formData);
 
     try {
       const response = await fetch("/api/send-email", {
